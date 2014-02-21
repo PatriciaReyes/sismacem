@@ -1,0 +1,240 @@
+/* ********************************************* 
+* This notice MUST stay intact for legal use.
+* This script was created for FREE CSS Menus.
+* Visit: www.freecssmenus.co.uk for more CSS. 
+* Also visit our Free online menu creator.
+************************************************ */ 
+/* credits: www.freecssmenus.co.uk */
+/* Mapa */
+
+#world { 
+  padding: 0px;
+  background: url(images/worldmap.jpg) no-repeat;
+  width: 538px;
+  height: 246px;
+  margin: 0px auto;
+  position: relative;
+  border:1px solid #CCCCCC;
+}
+#world li {
+  padding: 0px;
+  display: block;
+  margin:0px;
+}
+#world a {
+  display: block;
+  text-indent: 0px;
+  text-decoration: none;
+  font-size:11px;
+}
+#na{
+  position:relative;
+  left:20px;
+  top:10px;
+  width: 140px;
+  height: 130px }
+#na a{
+  text-indent: 0px;
+  left:0px;
+  top:0px;
+  width: 200px;
+  height: 130px;
+  display: block;
+  list-style-type: none;
+}
+#na a:hover{ 
+  width: 230px;
+  height: 144px;
+  background-image:url(images/n_america.jpg);
+  background-repeat: no-repeat;
+  background-position: -11px -10px;
+}
+#sa{
+  position:absolute;
+  left:138px;
+  top:145px;
+  width: 70px;
+  height: 95px}
+#sa a{
+  text-indent: -110px;
+  width: 70px;
+  height: 95px;
+  display: block;
+  list-style-type: none;
+}
+#sa a:hover{ 
+  width: 70px;
+  height: 95px;
+  background-image:url(images/s_america.jpg);
+  background-repeat: no-repeat;
+  background-position: 2px -2px;
+}
+#eu{
+  position:absolute;
+  left:236px;
+  top:12px;
+  width: 82px;
+  height: 78px}
+
+#eu a{
+  text-indent: 8px;
+  width: 80px;
+  height: 95px;
+  display: block;
+  list-style-type: none;
+}
+#eu a:hover{ 
+  width: 110px;
+  height: 95px;
+  background-image:url(images/europe.jpg);
+  background-repeat: no-repeat;
+  background-position: 4px 6px;
+}
+#au{
+  position:absolute;
+  left:313px;
+  top:2px;
+  width: 224px;
+  height: 166px}
+#au a{
+  text-indent: 60px;
+  line-height:140px;
+  width: 224px;
+  height: 166px;
+  display: block;
+  list-style-type: none;
+}
+#au a:hover{ 
+  width: 224px;
+  height: 172px;
+  background-image:url(images/asia.jpg);
+  background-repeat: no-repeat;
+background-position: 1px 17px;
+}
+#af{
+  position:absolute;
+  left:231px;
+  top:104px;
+  width: 96px;
+  height: 100px;
+}
+#af a{
+  text-indent: 30px;
+  line-height:60px;
+  width: 96px;
+  height: 100px;
+  display: block;
+  list-style-type: none;
+}
+#af a:hover{
+  width: 96px;
+  height: 100px;
+  background-image:url(images/africa.jpg);
+  background-repeat: no-repeat;
+  background-position: 1px -1px;
+}
+#mle{
+  position:absolute;
+  z-index:1000;
+  left:303px;
+  top:96px;
+  width: 80px;
+  height: 50px;
+}
+#mle a{
+  text-indent: 2px;
+  line-height:33px;
+  width: 80px;
+  height: 50px;
+  display: block;
+  list-style-type: none;
+}
+#mle a:hover{
+  width: 80px;
+  height: 50px;
+  background-image:url(images/middleeast.jpg);
+  background-repeat: no-repeat;
+  background-position: 0px 1px;
+}
+#oz{
+  position:absolute;
+  z-index:1200;
+  left:408px;
+  top:167px;
+  width: 108px;
+  height: 62px;
+}
+#oz a{
+  text-indent: 8px;
+  line-height:99px;
+  width: 108px;
+  height: 62px;
+  display: block;
+  list-style-type: none;
+}
+#oz a:hover{
+  width: 108px;
+  height: 62px;
+  background-image:url(images/australasia.jpg);
+  background-repeat: no-repeat;
+  background-position: 6px -2px;
+}
+
+/* --------------------------------------------- * POSICION DEL MAPA * ---------------------------------------------*/
+
+#contentMap
+	{
+		width:435px;
+		float:left;
+		margin:22px;
+		padding:0% 0% 0% 10%;
+		background-image:url(images/vline.jpg);
+		background-repeat:repeat-y;
+		font-family: Arial;
+		font-size:12px;
+		color:#464646;
+		text-align:justify;
+	}
+.mapheading h2
+	{
+		/* width:435px;*/
+		float: center;
+		/*margin:0px;*/
+		padding:0% 0% 0% 10%;
+    text-align:center;
+		font-family:Arial;
+		font-size:28px;
+		font-weight:normal;
+		color:#7e8901;
+	}
+.maptxt
+	{
+		width:538px;
+		float: center;
+		margin:0%;
+		padding:0% 0% 0% 0%;
+		font-family: Arial;
+		font-size:12px;
+		color:#464646;
+		text-align:justify;
+	}
+	
+	
+.mapboldtxt
+	{
+		font-family: Arial;
+		font-size:12px;
+		font-weight:bold;
+		color:#b22d00;
+	}
+
+#mapa{
+  position: relative;
+  padding: 0% 50% 10% 15%;
+}
+#mapaCentrar{
+  float: right;
+  margin:0%;
+  position: relative;
+  padding: 0% 0% 0% 0%;
+}

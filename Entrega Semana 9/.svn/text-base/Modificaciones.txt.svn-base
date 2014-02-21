@@ -1,0 +1,15 @@
+*Atributos de Agregar Jornada
+*Ojo con Eliminar Jornada (No implementado Aun)
+*Ojo con Eliminar Evento (No implementado Aun)
+*Ojo con Eliminar Plan (No implementado Aun)
+*Atributos de Agregar Evento
+*Casos de Uso que generan correo 
+-Agregar Jornada.
+-Agregar Evento.
+-Aproba registro
+*Consultar jornada
+*Ojo con Generar Reporte Jornada.(No revisado)
+Recordar que los actores no solo son los que participan 
+sino todos lo posibles, que puedan usar ese "Caso de uso".
+Poner: -Mensaje de envio exitoso en agregar Plan Etapa Actividad
+Pag 10 que pasa si se agrega plan etapa actividad ya existente ->JAmas pasa
